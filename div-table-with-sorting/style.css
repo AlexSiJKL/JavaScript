@@ -1,0 +1,30 @@
+.not_active {
+    background: #e7e2da;
+}
+
+.active_asc {
+    background-image: url('abc.png');
+    background-position: top 4px right 5px;
+    background-repeat: no-repeat;
+    background-color: #d79831;
+}
+
+.active_desc {
+    background-image: url('desc.png');
+    background-position: top 4px right 5px;
+    background-repeat: no-repeat;
+    background-color: #d79831;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 5px; /* padding */
+}
+
+.table div {
+    border: 1px dotted black;
+    padding: 5px;
+    text-align: left;
+}
