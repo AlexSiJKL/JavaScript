@@ -4,4 +4,4 @@
 first version of a table with sorting by click
 
 ## cards
-galery of pics
+gallery of pics
